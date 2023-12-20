@@ -1,38 +1,72 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+:root{
+  --body:black
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.App{
+  background-color: #e3f1fe;
+  position: absolute;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.content{
+  padding-right: 50px;
+}
+.bell{
+  position: absolute;
+  right: 0;
+  top: 115px;
+  padding: 10px;
+  background-color: white;
+  display: grid;
+  align-content: center;
+  border-radius: 10px 0 0 10px ;
+}
+.bell span{
+  position: absolute;
+  right: 10px;
+  top: 8px;
+  font-size: 8px;
   color: white;
+  background-color: red;
+  padding: 1px;
+  height: 10px;
+  width: 10px;
+  border-radius: 100%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.scroll{
+  position: absolute;
+  height: 100px;
+  width: 30px;
+  background-color: white;
+  right: 0;
+  bottom: 100px;
+  border-radius: 5px 0 0 5px ;
+
 }
 
-.App-link {
-  color: #61dafb;
+.add{
+  position: absolute;
+  bottom: 20px;
+  right: 0;
+  display: grid;
+  place-items: center;
+  
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.add button{
+  padding: 5px;
+  border-radius: 100%;
+  background: transparent;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  border: none;
 }

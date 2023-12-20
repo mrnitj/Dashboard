@@ -1,0 +1,66 @@
+.Dashboard {
+    padding: 2rem 3rem;
+    /* background-color: red; */
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    background-color: white;
+}
+.Dashboard_header {
+    position: relative;
+}
+.Dashboard h1 {
+    font-size: 25px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.d-btn_box {
+    /* background-color: blue; */
+    border-radius: 50px;
+    border: 1px solid black;
+    padding: 3px;
+    width: 296px;
+    position: absolute;
+    right: 0;
+}
+#btn {
+    display: flex;
+    justify-content: space-between;
+    /* background-color: aqua; */
+}
+#btn button {
+    padding: 10px 40px;
+    background: transparent;
+    border: none;
+    border-radius: 50px;
+}
+
+#btn .active,
+#btn button:active {
+    background-color: #c9e4ff;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.Dashboard #sub {
+    align-self: flex-end;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #539ad2;
+}
+
+@media all and (max-width: 745px) {
+    .Dashboard h1 {
+        font-size: 22px;
+    }
+    .d-btn_box {
+        padding: 3px;
+        width: 218px;
+    }
+    #btn button {
+        padding: 8px 26px;
+        font-size: 11px;
+    }
+}

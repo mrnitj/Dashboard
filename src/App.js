@@ -1,25 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import './App.css'
+import { Navbar } from './components/Navbar'
+import { SideBar } from './components/SideBar'
+import { Dashboard } from './pages/Dashboard'
+import { FaBell } from "react-icons/fa";
+import { FaPlus } from "react-icons/fa6";
 
-function App() {
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App'>
+      <div className='bell'>
+        <span>3</span>
+      <FaBell style={{fontSize:'20px',color:'#2b7eca'}} />
+      </div>
+      <div className="scroll"></div>
+      <div className="add"><button><FaPlus style={{color:'#d127b5'}}/></button></div>
+      <Navbar/>
+      <div className="content">
+
+      <div style={{display:'flex'}}>
+      <SideBar/>
+      <Dashboard/>
+      </div>
+      </div>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

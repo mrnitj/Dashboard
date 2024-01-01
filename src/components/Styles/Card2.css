@@ -1,127 +1,114 @@
-.CardMain2{
+.CardMain2 {
     display: flex;
     column-gap: 2rem;
-    
-    
+
     /* background-color: turquoise; */
 }
 
-.card2{
+.card2 {
     display: flex;
     border-radius: 10px;
-    padding:  2rem .5rem 2rem 2rem;
+    padding: 2rem 0.5rem 2rem 2rem;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
     /* background-color: brown; */
     justify-content: space-between;
     width: 50%;
     /* background-color: white; */
-    
 }
-.card2_left{
+.card2_left {
     font-size: 15px;
     flex: 1;
-    
-    
 }
-.card2_left p:nth-child(1){
+.card2_left p:nth-child(1) {
     font-size: 10px;
     padding: 5px 10px;
     display: inline-block;
     border-radius: 50px;
     margin-bottom: 10px;
-
-
 }
-.card2_left p:nth-child(2){
+.card2_left p:nth-child(2) {
     font-size: 25px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-weight: 700;
     margin-bottom: 9px;
 }
-.card2_left p:nth-child(3){
+.card2_left p:nth-child(3) {
     font-size: 13px;
-    font-family: 'Open Sans', sans-serif;
-    margin-bottom: 18px;  
+    font-family: "Open Sans", sans-serif;
+    margin-bottom: 18px;
 }
-.card2_left button{
+.card2_left button {
     max-width: 65%;
     padding: 2px 20px;
     border-radius: 6px;
     border: none;
     font-weight: 400;
-    margin-bottom:20px ;
+    margin-bottom: 20px;
     display: flex;
     align-items: center;
     cursor: pointer;
     font-size: 14px;
-
 }
-.card2_left button span{
-    margin-left:10px ;
+.card2_left button span {
+    margin-left: 10px;
 }
-
-
 
 /* ------ */
-.card2_right{
+.card2_right {
     flex: 1;
 }
 
 .card2_right p {
     font-size: 13px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
     margin-bottom: 10px;
 }
 
-.card2_right ul li{
-    font-family: 'Open Sans', sans-serif;
+.card2_right ul li {
+    font-family: "Open Sans", sans-serif;
     font-size: 14px;
     font-weight: 500;
-    margin-left: .3rem;
+    margin-left: 0.3rem;
     margin-bottom: 8px;
 }
-.card2_right ul{
+.card2_right ul {
     display: flex;
-
 }
 
-@media all and (max-width:1140px){
-    .CardMain2{
+@media all and (max-width: 1140px) {
+    .CardMain2 {
         flex-direction: column;
         row-gap: 2rem;
     }
-    .card2{
+    .card2 {
         width: 100%;
     }
 }
-@media all and (max-width:745px){
-
+@media all and (max-width: 745px) {
     .card2_right ul li {
         font-size: 12px;
         margin-bottom: 8px;
     }
-   
-    
+
     .card2_left button {
         max-width: 62%;
         padding: 1px 7px;
         margin-bottom: 20px;
         font-size: 12px;
     }
-    
+
     .card2_left p:nth-child(3) {
         font-size: 11px;
         margin-bottom: 18px;
     }
-    
+
     .card2_left p:nth-child(2) {
         font-size: 23px;
         margin-bottom: 9px;
     }
-    
+
     .card2_left p:nth-child(1) {
         font-size: 8px;
         padding: 5px 10px;
     }
-    
 }

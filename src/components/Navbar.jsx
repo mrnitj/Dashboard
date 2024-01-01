@@ -2,7 +2,7 @@ import React from "react";
 import "../components/Styles/Navbar.css";
 import { IoIosArrowDown } from "react-icons/io";
 import logo from "../assets/arab.png";
-import clogo from '../assets/logo.png'
+import clogo from "../assets/logo.png";
 
 export const Navbar = () => (
     <div className="navbar">

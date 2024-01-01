@@ -103,40 +103,39 @@
 }
 
 @media all and (max-width: 945px) {
-  
-.card {
-    width: 17rem;
-    padding: 20px;
-}
-.card-bottom a {
-    font-size: 13px;
-}
+    .card {
+        width: 17rem;
+        padding: 20px;
+    }
+    .card-bottom a {
+        font-size: 13px;
+    }
 
-.card-bottom ul li {
-    font-size: 12px;
-    margin-bottom: 9px;
-}
+    .card-bottom ul li {
+        font-size: 12px;
+        margin-bottom: 9px;
+    }
 
-.card-bottom p {
-    font-size: 12px;
-    margin-bottom: 10px;
-}
+    .card-bottom p {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
 
-.card button {
-    max-width: 50%;
-    font-size: 11px;
-    padding: 1px 9px;
-}
+    .card button {
+        max-width: 50%;
+        font-size: 11px;
+        padding: 1px 9px;
+    }
 
-.card p:nth-child(3) {
-    font-size: 21px;
-}
+    .card p:nth-child(3) {
+        font-size: 21px;
+    }
 
-.card p:nth-child(2) {
-    font-size: 10px;
-}
+    .card p:nth-child(2) {
+        font-size: 10px;
+    }
 
-.card h1 {
-    font-size: 22px;
-}
+    .card h1 {
+        font-size: 22px;
+    }
 }
